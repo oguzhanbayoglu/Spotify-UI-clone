@@ -1,7 +1,8 @@
 import React from "react";
 
 function Playlists() {
-  return <div className="playlist">{new Array(43).fill(<p>Playlist</p>)}</div>;
+  const playlists = new Array(43).fill(<p>Playlist</p>);
+  return <div className="playlist">{playlists}</div>;
 }
 
 export default Playlists;
